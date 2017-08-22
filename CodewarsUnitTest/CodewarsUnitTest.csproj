@@ -48,12 +48,15 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SupermarketQueue\Kate.QueueTime.cs" />
+    <Compile Include="SortTheOdd\SortArrayTests.cs" />
+    <Compile Include="SupermarketQueue\Kata.QueueTime.cs" />
     <Compile Include="SupermarketQueue\QueueTimeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Compile Include="SortTheOdd\Kata.SortArray.cs" />
+    <None Include="SortTheOdd\Readme.md" />
     <None Include="SupermarketQueue\Readme.md" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
