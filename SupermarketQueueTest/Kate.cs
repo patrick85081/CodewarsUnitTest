@@ -10,7 +10,9 @@ namespace SupermarketQueueTest
     {
         public static long QueueTime(int[] customers, int number)
         {
-            return customers.Sum() / number;
+            return customers.Count() > number
+                ? customers.Sum() / number
+                : (customers.Count() > 0 ? customers.Max() : 0);
         }
     }
 }
