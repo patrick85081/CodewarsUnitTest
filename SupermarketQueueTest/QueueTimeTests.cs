@@ -45,5 +45,35 @@ namespace SupermarketQueueTest
 
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void ExtendedTest1()
+        {
+            long expected = 12;
+
+            long actual = Kata.QueueTime(new int[] {5, 3, 4}, 1);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void ExtendedTest2()
+        {
+            long expected = 10;
+
+            long actual = Kata.QueueTime(new int[] {10, 2, 3, 3}, 2);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void ExtendedTest3()
+        {
+            long expected = 12;
+
+            long actual = Kata.QueueTime(new int[] {2, 3, 10}, 2);
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
