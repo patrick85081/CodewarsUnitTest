@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SupermarketQueueTest
+namespace CodewarsUnitTest
 {
-    internal class Kata
+    internal partial class Kata
     {
         public static long QueueTime(int[] customers, int number)
         {

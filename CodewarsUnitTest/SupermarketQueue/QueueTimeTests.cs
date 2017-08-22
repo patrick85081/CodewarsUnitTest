@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace SupermarketQueueTest
+namespace CodewarsUnitTest.SupermarketQueue
 {
     [TestClass]
     public class QueueTimeTests
