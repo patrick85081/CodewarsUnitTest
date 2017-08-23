@@ -52,6 +52,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="RGBToHexConversion\Kata.Rgb.cs" />
+    <Compile Include="RGBToHexConversion\RgbTests.cs" />
     <Compile Include="SortTheOdd\SortArrayTests.cs" />
     <Compile Include="SupermarketQueue\Kata.QueueTime.cs" />
     <Compile Include="SupermarketQueue\QueueTimeTests.cs" />
@@ -60,6 +62,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Compile Include="SortTheOdd\Kata.SortArray.cs" />
+    <None Include="RGBToHexConversion\Readme.md" />
     <None Include="SortTheOdd\Readme.md" />
     <None Include="SupermarketQueue\Readme.md" />
   </ItemGroup>
