@@ -10,36 +10,42 @@ namespace CodewarsUnitTest
     {
         public static int[] SortArray(int[] array)
         {
-            var result = new int[array.Length];
-            array.CopyTo(result, 0);
+            // 最佳解法
+            Queue<int> odds = new Queue<int>(array.Where(num => num % 2 == 1).OrderBy(num => num));
 
-            var items = array.Select((Value, Index) => new {Value, Index})
-                .Where(item => item.Value % 2 == 1);
+            return array.Select(num => num % 2 == 1 ? odds.Dequeue() : num).ToArray();
 
-            var values = items.OrderBy(item => item.Value).Select(item => item.Value);
-            var indexs = items.OrderBy(item => item.Index).Select(item => item.Index);
+            // 原本的寫法
+            //var result = new int[array.Length];
+            //array.CopyTo(result, 0);
 
-            values.Merge(indexs, (v, i) => new {Value = v, Index = i})
-                .ToList()
-                .ForEach(item => result[item.Index] = item.Value);
+            //var items = array.Select((Value, Index) => new {Value, Index})
+            //    .Where(item => item.Value % 2 == 1);
+
+            //var values = items.OrderBy(item => item.Value).Select(item => item.Value);
+            //var indexs = items.OrderBy(item => item.Index).Select(item => item.Index);
+
+            //values.Merge(indexs, (v, i) => new {Value = v, Index = i})
+            //    .ToList()
+            //    .ForEach(item => result[item.Index] = item.Value);
 
 
-            return result;
+            //return result;
         }
     }
 
-    internal static class EX
-    {
-        public static IEnumerable<TResult> Merge<TInput1, TInput2, TResult>(this IEnumerable<TInput1> source,
-            IEnumerable<TInput2> second, Func<TInput1, TInput2, TResult> selector)
-        {
-            var a = source.GetEnumerator();
-            var b = second.GetEnumerator();
+    //internal static class EX
+    //{
+    //    public static IEnumerable<TResult> Merge<TInput1, TInput2, TResult>(this IEnumerable<TInput1> source,
+    //        IEnumerable<TInput2> second, Func<TInput1, TInput2, TResult> selector)
+    //    {
+    //        var a = source.GetEnumerator();
+    //        var b = second.GetEnumerator();
 
-            while (a.MoveNext() && b.MoveNext())
-            {
-                yield return selector.Invoke(a.Current, b.Current);
-            }
-        }
-    }
+    //        while (a.MoveNext() && b.MoveNext())
+    //        {
+    //            yield return selector.Invoke(a.Current, b.Current);
+    //        }
+    //    }
+    //}
 }
