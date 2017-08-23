@@ -50,8 +50,14 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Interactive, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Interactive.3.1.1\lib\net45\System.Interactive.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProductOfConsecutiveFibNumbers\ProdFib.ProductFib.cs" />
+    <Compile Include="ProductOfConsecutiveFibNumbers\ProductFibUnitTests.cs" />
     <Compile Include="SortTheOdd\SortArrayTests.cs" />
     <Compile Include="SupermarketQueue\Kata.QueueTime.cs" />
     <Compile Include="SupermarketQueue\QueueTimeTests.cs" />
@@ -60,6 +66,8 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Compile Include="SortTheOdd\Kata.SortArray.cs" />
+    <None Include="ProductOfConsecutiveFibNumbers\Readme.md" />
+    <None Include="Readme.md" />
     <None Include="SortTheOdd\Readme.md" />
     <None Include="SupermarketQueue\Readme.md" />
   </ItemGroup>
