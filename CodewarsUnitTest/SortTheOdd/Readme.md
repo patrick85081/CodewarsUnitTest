@@ -6,6 +6,12 @@
 
 零不是奇數，你不需要移動它。 如果你有一個空陣列，請直接回傳它。
 
+``` c#
+SortArray(new int[]{5, 3, 2, 8, 1, 4});
+// return int[]{1, 3, 2, 8, 5, 4};
+```
+  
+  
 ## 原文：
 
 You have an array of numbers.
