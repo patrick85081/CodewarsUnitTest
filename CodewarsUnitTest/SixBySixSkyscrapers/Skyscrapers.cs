@@ -10,6 +10,18 @@ namespace CodewarsUnitTest.SixBySixSkyscrapers
     {
         public static int[][] SolvePuzzle(int[] clues)
         {
+            var ary = new int[6][]
+            {
+                new int[6],
+                new int[6],
+                new int[6],
+                new int[6],
+                new int[6],
+                new int[6],
+            };
+            
+
+
             // Start your coding here...
             return null;
         }
