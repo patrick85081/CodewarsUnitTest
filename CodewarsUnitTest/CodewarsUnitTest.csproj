@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="ProductOfConsecutiveFibNumbers\ProdFib.ProductFib.cs" />
     <Compile Include="ProductOfConsecutiveFibNumbers\ProductFibUnitTests.cs" />
+    <Compile Include="RGBToHexConversion\Kata.Rgb.cs" />
+    <Compile Include="RGBToHexConversion\RgbTests.cs" />
     <Compile Include="SortTheOdd\SortArrayTests.cs" />
     <Compile Include="SupermarketQueue\Kata.QueueTime.cs" />
     <Compile Include="SupermarketQueue\QueueTimeTests.cs" />
@@ -68,6 +70,7 @@
     <Compile Include="SortTheOdd\Kata.SortArray.cs" />
     <None Include="ProductOfConsecutiveFibNumbers\Readme.md" />
     <None Include="Readme.md" />
+    <None Include="RGBToHexConversion\Readme.md" />
     <None Include="SortTheOdd\Readme.md" />
     <None Include="SupermarketQueue\Readme.md" />
   </ItemGroup>
