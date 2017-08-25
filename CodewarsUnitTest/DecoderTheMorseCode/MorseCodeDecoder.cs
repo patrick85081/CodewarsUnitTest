@@ -53,18 +53,32 @@ namespace CodewarsUnitTest.DecoderTheMorseCode
             MorseCode.Add(".-..", "L");
             MorseCode.Add("--", "M");
             MorseCode.Add("-.", "N");
-            MorseCode.Add("-- -", "O");
+            MorseCode.Add("---", "O");
             MorseCode.Add(".--.", "P");
             MorseCode.Add("--.-", "Q");
             MorseCode.Add(".-.", "R");
             MorseCode.Add("...", "S");
             MorseCode.Add("-", "T");
             MorseCode.Add("..-", "U");
-            MorseCode.Add("...-", "W");
+            MorseCode.Add("...-", "V");
             MorseCode.Add(".--", "W");
             MorseCode.Add("-..-", "X");
             MorseCode.Add("-.--", "Y");
             MorseCode.Add("--..", "Z");
+            //-----------------------
+            MorseCode.Add(".----", "1");
+            MorseCode.Add("..---", "2");
+            MorseCode.Add("...--", "3");
+            MorseCode.Add("....-", "4");
+            MorseCode.Add(".....", "5");
+            MorseCode.Add("-....", "6");
+            MorseCode.Add("--...", "7");
+            MorseCode.Add("---..", "8");
+            MorseCode.Add("----.", "9");
+            MorseCode.Add("-----", "0");
+            //-----------------------
+            MorseCode.Add(".-.-.-", ".");
+            MorseCode.Add("--..--", ",");
         }
 
         public static string Decode(string morseCode)

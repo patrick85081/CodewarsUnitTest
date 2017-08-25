@@ -60,7 +60,7 @@
     <Compile Include="DecoderTheMorseCode\MorseCodeDecoder.cs" />
     <Compile Include="DecoderTheMorseCode\MorseCodeDecoderTests.cs" />
     <Compile Include="DecodeTheMorseCodeAadvanced\MorseCodeDecoder.cs" />
-    <Compile Include="DecodeTheMorseCodeAadvanced\MorseCodeDecoderTest.cs" />
+    <Compile Include="DecodeTheMorseCodeAadvanced\MorseCodeDecoderAadvancedTest.cs" />
     <Compile Include="ProductOfConsecutiveFibNumbers\ProdFib.ProductFib.cs" />
     <Compile Include="ProductOfConsecutiveFibNumbers\ProductFibUnitTests.cs" />
     <Compile Include="RGBToHexConversion\Kata.Rgb.cs" />
@@ -86,6 +86,10 @@
     <None Include="SortTheOdd\Readme.md" />
     <None Include="SquareIntoSquares\Readme.md" />
     <None Include="SupermarketQueue\Readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DecodeTheMorseCodeAadvanced\MorseDecoder.js" />
+    <Content Include="DecodeTheMorseCodeAadvanced\MorseTests.html" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
