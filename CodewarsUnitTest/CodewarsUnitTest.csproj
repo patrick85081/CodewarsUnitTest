@@ -63,6 +63,8 @@
     <Compile Include="SixBySixSkyscrapers\Skyscrapers.cs" />
     <Compile Include="SixBySixSkyscrapers\SolvePuzzleTests.cs" />
     <Compile Include="SortTheOdd\SortArrayTests.cs" />
+    <Compile Include="SquareIntoSquares\Decompose.cs" />
+    <Compile Include="SquareIntoSquares\DecomposeTests.cs" />
     <Compile Include="SupermarketQueue\Kata.QueueTime.cs" />
     <Compile Include="SupermarketQueue\QueueTimeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,6 +77,7 @@
     <None Include="RGBToHexConversion\Readme.md" />
     <None Include="SixBySixSkyscrapers\Readme.md" />
     <None Include="SortTheOdd\Readme.md" />
+    <None Include="SquareIntoSquares\Readme.md" />
     <None Include="SupermarketQueue\Readme.md" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
