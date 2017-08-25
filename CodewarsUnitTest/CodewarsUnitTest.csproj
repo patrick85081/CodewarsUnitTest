@@ -56,6 +56,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuilderTests.cs" />
+    <Compile Include="DecoderTheMorseCode\MorseCodeDecoder.cs" />
+    <Compile Include="DecoderTheMorseCode\MorseCodeDecoderTests.cs" />
     <Compile Include="ProductOfConsecutiveFibNumbers\ProdFib.ProductFib.cs" />
     <Compile Include="ProductOfConsecutiveFibNumbers\ProductFibUnitTests.cs" />
     <Compile Include="RGBToHexConversion\Kata.Rgb.cs" />
@@ -70,6 +73,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="DecoderTheMorseCode\Readme.md" />
     <None Include="packages.config" />
     <Compile Include="SortTheOdd\Kata.SortArray.cs" />
     <None Include="ProductOfConsecutiveFibNumbers\Readme.md" />
