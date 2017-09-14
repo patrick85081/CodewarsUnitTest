@@ -1,5 +1,5 @@
-﻿# Decode the Morse code, advanced
-[題目來源 : Codewars](http://www.codewars.com/kata/decode-the-morse-code-for-real)
+﻿# [2 kyu] Decode the Morse code, for real
+[題目來源 : Codewars](http://www.codewars.com/kata/decode-the-morse-code-for-real/train/csharp)
 
 ### 題目簡介
 

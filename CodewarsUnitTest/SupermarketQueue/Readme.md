@@ -1,4 +1,4 @@
-﻿# The Supermarket Queue
+﻿# [6 kyu] The Supermarket Queue
 [題目來源 : Codewars](https://www.codewars.com/kata/57b06f90e298a7b53d000a86/train/csharp)
 
 這裡是超級市場上自助結帳的排隊。 

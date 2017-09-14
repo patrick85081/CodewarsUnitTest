@@ -1,4 +1,4 @@
-﻿# Decode the Morse code
+﻿# [6 kyu] Decode the Morse code
 [題目來源 : Codewars](https://www.codewars.com/kata/decode-the-morse-code/train/csharp)
 
 ## 原文

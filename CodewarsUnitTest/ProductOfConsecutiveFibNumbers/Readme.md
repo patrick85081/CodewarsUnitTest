@@ -1,4 +1,4 @@
-﻿# Product of consecutive Fib numbers
+﻿# [5 kyu] Product of consecutive Fib numbers
 [題目來源 : Codewars](https://www.codewars.com/kata/5541f58a944b85ce6d00006a/train/csharp)
 
 斐波那契數字是以下整數序列（Fn）中的數字：

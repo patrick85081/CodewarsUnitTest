@@ -1,4 +1,4 @@
-﻿# Sort the odd
+﻿# [6 kyu] Sort the odd
 [題目來源 : Codewars](https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/csharp)
 
 你有一個數值的陣列。

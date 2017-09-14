@@ -1,4 +1,4 @@
-﻿# Catching Car Mileage Numbers
+﻿# [4 kyu] Catching Car Mileage Numbers
 [題目來源 : Codewars](https://www.codewars.com/kata/52c4dd683bfd3b434c000292/train/csharp)
 
 > 「7777...8 !?!?!?」Bob大叫，「我又再次錯過了！」每次有趣的數字接近，他會開始注意這個數字，但是每次都會錯過。

@@ -1,4 +1,4 @@
-﻿# Decode the Morse code, advanced
+﻿# [4 kyu] Decode the Morse code, advanced
 [題目來源 : Codewars](http://www.codewars.com/kata/decode-the-morse-code-advanced/train/java)
 
 ## 原文

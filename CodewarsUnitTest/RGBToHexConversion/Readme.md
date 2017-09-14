@@ -1,4 +1,4 @@
-﻿# RGB To Hex Conversion
+﻿# [5 kyu] RGB To Hex Conversion
 [題目來源 : Codewars](https://www.codewars.com/kata/513e08acc600c94f01000001/train/csharp)
 
 Rgb() 方法尚未完成，請完成該方法，
